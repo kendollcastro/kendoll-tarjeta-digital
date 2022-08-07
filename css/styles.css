@@ -1,10 +1,14 @@
 body {
   align-items: center;
   display: flex;
-  height: 100%;
   justify-content: center;
-  margin: 0;
   padding: 0;
+}
+
+@media(min-width: 1200px) {
+  body {
+    margin: 3rem;
+  }
 }
 
 h1, h2 {
@@ -67,6 +71,16 @@ p, a {
   margin-top: -300px;
   position: absolute;
   z-index: 1;
+}
+
+.profile__logo {
+  width: 250px;
+}
+
+@media (min-width: 1200px) {
+  .profile__logo {
+    width: 300px;
+  }
 }
 
 .profile__slogan {
